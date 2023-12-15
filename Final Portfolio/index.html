@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvin Ye </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js"></script>
+    <script src="https://kit.fontawesome.com/d79e5bb5ad.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Preahvihear&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="Resume.pdf">Resume</a>
+      <a href="#Front">Alvin</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+    </div>
+  
+  </div>
+<section id="nav">
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">
+        <img class="bigImage" onclick="openNav()" src="images/me.png" width="60" height="60" class="d-inline-block align-top" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" ></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="Resume.pdf">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a> <!-- if you have another page-->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a> <!-- if you have another page-->
+            </li>
+        </ul>
+    </div>
+</nav>
+</div>
+</section>
+
+
+<!-- Section 1: Front Page-->
+<section id="Front">
+<div class="row container-fluid squished">
+
+    <div class="col-lg-5">
+        <h1 class="left lines"> <span style="font-weight: normal; text-shadow: 5px -2px #295b94; margin-left: 80px;">Hi!</span> 
+            <br> <span style="margin-left: 140px; font-weight: bold; color: #df9f60; text-shadow: 5px -2px #295b94">I am</span> 
+            <br> <span style="margin-left: 240px; color: #e9892a; text-shadow: 5px -2px #295b94">Alvin</span>
+    </div>
+    <div class="col-lg-5">
+      <h1 style="background-color: #111a3a" class="right">Who Is Alvin?</h1><h2 class="label">Developer</h2><h2 class="label-2">Desginer</h2><h2 class="label-3">Student</h2>
+    </div>
+    <div class="col-lg-2 padding ">
+        <h2><span style="color: #F3F0CA;">Contacts</span></h2>
+        <h2 class="lighter"><i class="fa-solid fa-envelope orange"></i> :<span style="font-size: 20px;">  redacted@gmail.com</span></h2>
+        <br><h2 class="lighter"><i class="fa-brands fa-instagram orange"></i> :<span style="font-size: 20px;"> alvinye.webdsgn </span></h2>
+        <br><h2 class="lighter"><i class="fa-solid fa-phone orange"></i> :<span style="font-size: 20px;"> Unavailable</span></h2>
+    </div>
+  </div>
+</section>
+
+<section id="liner">
+
+</section>
+
+<section id="skills">
+<div class="row container-fluid squished">
+    <div class="col-lg-6">
+        <div class="card-4">
+            <header class="#">
+              <h1><u>Skills</u></h1>
+            </header>
+            <div class="lighter-blue">
+              <p>I have exeperince working with <span style="color: #f3caca; font-weight: bold;">Figma</span> to test and design websites.
+                Which I then transfer on to <span style="color: #cbf3ca; font-weight: bold;">HTML</span> to create a framework, 
+                allowing me to then style it with <span style="color: #f3deca; font-weight: bold;">CSS</span>. 
+                Any functions will then be done in <span style="color: #cacef3; font-weight: bold;">JavaScript</span>.</p>
+            </div>
+            <div>
+                <button  type="button" name="button" class="btn btn-white btn-outline-light btn-lg"><a href="Resume.pdf">Resume</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-1">
+        <h1 class="padding-top"> <span style="writing-mode: vertical-lr; color: #E1AA74; text-shadow: 5px -5px #295b94;">proficiency</span></h1>
+    </div>
+    <div class="col-lg-5">
+        <h2 class="padding-top"> <span style="text-shadow: #000000 1px 0 10px;"><p class="roundline-1">Figma</p> <br><p class="roundline-2">HTML</p> <br> <p class="roundline-3">CSS</p> <br> <p class="roundline-4">JavaScript</p> </h2> </span>
+    </div>
+    <p class="line"></p>
+
+</div>
+</section>
+
+<section id="liner">
+
+</section>
+
+
+<section id="projects" class="container-fluid">
+    <h1 class="text-center padding-top padding-bot"><u>Projects</u></h1>
+    <!-- Carousel -->
+        <div id="projectCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                
+        <div class="carousel-item active">
+            <img src="images/css.png" class="d-block w-100" alt="CSS">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>studyBuddy</h3><h4>Editing CSS to create a better looking website, and playing with HTML</h4>
+
+            </div>
+        </div>
+        
+        <div class="carousel-item ">
+            <img src="images/figma.png" class="d-block w-100" alt="Figma" height="1016">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Pulse Figma</h3><h4>Creating interaction adn webstie designs in Figma</h4>
+            </div>
+        </div>
+        
+        <div class="carousel-item ">
+            <img src="images/figma2.png" class="d-block w-100" alt="Figma 2">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Portfolio Figma</h3><h4>Testing out design and interactions options through figma</h4>
+            </div>
+        </div>
+
+        <div class="carousel-item ">
+            <img src="images/cssport.png" class="d-block w-100" alt="CSS">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Portfolio CSS</h3><h4>My CSS for this website, trying new things and styling</h4>
+            </div>
+        </div>
+
+        <div class="carousel-item ">
+            <img src="images/js.png" class="d-block w-100" alt="JS">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Some JavaScript</h3><h4>Learning JavaScript for a Class, finding ways to solve the problem</h4>
+            </div>
+        </div>
+        
+            </div>
+            <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
